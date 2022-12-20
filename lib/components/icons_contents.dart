@@ -1,10 +1,7 @@
+import 'package:bmi_calc_by_irshad/canstants/canstants.dart';
 import 'package:flutter/material.dart';
 class IconContents extends StatelessWidget {
   const IconContents({Key key,this.iconsContents,this.title }) : super(key: key);
-  static const labelTextStyle=TextStyle(
-      color: Colors.white,
-      fontSize: 18
-  );
   final String title;
   final Widget iconsContents;
   @override
